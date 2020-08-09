@@ -1,5 +1,6 @@
 # Securities-Customers-Clustering-Using-K-prototype
 NCCU_MBA_Thesis
+
 This study is designed to use statistic and machine learning methods to find out
 the customer characteristics of President securities’ three major financial management
 businesses (Insurance, Overseas, Wealth management), and to distinguish the key
@@ -7,6 +8,7 @@ differences between the customer groups, so that salesperson can use this to ide
 the preferences of new customers in a more efficient and systematic way, thereby
 improving new comer rate and transaction rate, then achieving the goal of increasing
 revenue.
+
 The process starts with the k-means clustering of the three financial management
 business’ customers, so as to establish the customer sketches of these businesses and
 research on the change in characteristics of customers during data time (2018, 2019).
@@ -14,6 +16,7 @@ Second step, use Logistic classification to train the model in order to distingu
 buyers(1) to non-buyers(0), and discuss how the statistically significant features in the
 model impact on customer buying behavior, so that the model can tell the new comer
 buying probability in the future.
+
 In the outcome of customer clustering of Wealth management business, we found
 that there is a difference in risk preference and commodity preference when customers
 selecting products among the groups, but this characteristic is extremely susceptible to
@@ -27,6 +30,7 @@ a small amount of medical insurance according to demand. And the results in 2019
 roughly the same as 2018, except for little impact of some products suspensions on
 buying amount, and this infer that insurance products are most affected by age,
 demand, and salesperson.
+
 In the outcome of Logistic classification, the significant variables of the two
 models are the same, which are Age, Gender, Days_of_registration,
 Registered_before_2008, Registered_at_bonus_release. And Total_buy_amount is
